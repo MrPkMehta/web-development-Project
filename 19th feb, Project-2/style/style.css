@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-repeat: none ;
+    background-size: 100% 120%;
+    border-radius: 100px;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../assest/pexels-maxyne-barcel-10402282\ 1.png);
+ 
+}
+
+/* Header section */
+header {
+    
+    height: 30%;
+    padding: 0px 30px ;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    padding: 0px 25%;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10%; */
+}
+
+/* Header list */
+header ul li {
+    font-family: "Red Rose";
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+    text-decoration:none ;
+    font-weight: 400;
+    font-size:18px;
+    line-height: 22px;
+    color: #ffc233;
+}
+
+header ul li:hover {
+    cursor: pointer;
+    font-weight: 800;
+    
+}
+/* Logo */
+header div img {
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    width: 90%;
+    
+}
+
+/* Header button */
+header button {
+    
+    background-color: #ff505f;
+    border: none;
+    padding: 7px 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    font-style: normal;
+    cursor: pointer;
+}
+
+header button:hover {
+    color: #ff505f;
+    background-color: #ffffff;
+}
+
+/* ------------- */
+/* Hero section */
+div  { 
+    max-height: fit-content;
+    max-width: 900px;
+    margin: 0 auto;
+    /* padding:10px ; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    font-size: 95px;
+    text-align: center;
+    color: #ffc233;
+    font-weight: 900;
+}
+
+div button {
+    
+    padding: 20px 30px;
+    margin-top: 64px;
+    border: none;
+    background-color: #ff505f;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 28px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+div button:hover {
+    color: #ff505f;
+    background-color: #ffffff;
+}
+
+/* Footer section */
+footer {
+
+    position: fixed;
+  bottom: 20px;
+  right: 20px;
+   /* padding-right: 25px; */
+   /* display: flex; */
+   /* align-items: center; */
+   /* justify-content: end; */
+}
+
+footer img {
+    width: 140px;
+    margin-bottom: 0px;
+}
+
