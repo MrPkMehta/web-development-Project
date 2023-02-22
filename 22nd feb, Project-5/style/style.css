@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: aquamarine;
+    background-image: url(../assest/bg.png);
+    background-size: 100% 147%;
+    background-repeat: none;
+    background-attachment:scroll;
+}
+
+/* header section */
+.header {
+    background-color: #000000;
+    padding: 20px;
+}
+
+/* logo */
+.header img {
+    height: 40px;
+}
+
+.header nav {
+        display: flex;
+        align-items: center;
+}
+
+/* navigation bar */
+.list  {
+    list-style: none;
+    display: flex;
+    gap: 14%;
+    margin-left: 7%;
+   
+}
+
+
+.list a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.list a:hover {
+    color: blue;
+}
+
+.header button {
+    margin-left: 765px;
+    border: none;
+    padding: 10px 22px;
+    background-color: #b90ec5;
+    border-radius: 8px;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    position: sticky;
+}
+
+.header button:hover {
+    color: #b90ec5;
+    background-color: #fff;
+}
+
+
+
+/* hero secction */
+/* ------------- */
+
+.hero-section div {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+/* heading content */
+.hero-section h1 {
+        font-size: 70px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 80px;
+}
+
+.hero-section p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
+.hero-section span{
+    display: flex;
+    justify-content: center
+}
+
+.hero-section button {
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 50px;
+    color: #ffffff;
+    background-color: #b90ec5;
+    cursor: pointer;
+}
+
+.hero-section button:hover {
+    color: #b90ec5;
+    background-color: #fff;
+}
+
+
+
+
+
