@@ -1,0 +1,104 @@
+body {
+    
+    text-align: center;
+    font-size: 30px;
+}
+/* this is for larger screen */
+
+@media(min-width:1441px){
+    body{
+        background-color: #7fffd5;
+    }
+    .laptop{
+        display: none;
+     }
+     .tablet {
+         display: none;
+     }
+     .ipad {
+         display: none;
+     }
+     .mobile {
+         display: none;
+     }
+}
+
+
+/* This is for laptop screen */
+@media (max-width: 1440px) {
+    
+    .laptop{
+       display: block;
+    }
+    body {
+        background-color: #292;
+       
+    }
+    .tablet {
+        display: none;
+    }
+    .ipad {
+        display: none;
+    }
+    .mobile {
+        display: none;
+    }
+    
+}
+
+/* this is for laptop */
+@media (max-width:1024px){
+    .tablet{
+        display: block;
+    } 
+    body{
+        background-color: #b1882f;
+    }
+    .laptop{
+        display: none;
+     }
+    .ipad {
+        display: none;
+    }
+    .mobile {
+        display: none;
+    }
+}
+
+/* this is ipad air */
+@media (max-width:768px){
+    .ipad{
+        display: block;
+    }
+    body{
+        background-color: #75fbfd;
+    }
+    .tablet{
+        display: none;
+    } 
+    .laptop{
+        display: none;
+     }
+    .mobile {
+        display: none;
+    }
+}
+
+/* this is for mobile phone */
+@media(max-width:425px){
+    .mobile{
+        display: block;
+    }
+    body{
+        background-color: #ca3142;
+    }
+    .ipad{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    } 
+    .laptop{
+        display: none;
+     }
+}
