@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+    /* background-color: aqua; */
+    background-image: url(../Assest/stethoscope.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40% 80%;
+    padding-left:80px;
+    position: relative;
+    background-position: 30% 130px;
+    background-color: #f0f4f5;
+}
+
+/* header section */
+.header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* logo */
+.header img{
+    
+    size: 50px;
+    width: 130px;
+    /* padding-left: 100px; */
+    size: fixed;
+}
+
+
+/* list */
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-right: 12%;
+}
+
+.list li a {
+    text-decoration: none;
+    color: #000000 ;
+    font-weight: 600;
+}
+
+.list li a:hover {
+    color: rgb(132, 132, 243)
+}
+
+/* main section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+position: relative;
+top: 100px;  
+/* left: 150px;  */
+}
+
+
+.topangle {
+   width: 20px;
+   
+}
+
+.left-hero-section h1 {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 65px;
+}
+
+.content {
+    font-size: 17px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #bdc0c2;
+}
+
+.bottomAngle {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 95%;
+}
+
+.mouse {
+    display: flex;
+    align-items: center;
+    margin-left: 102%;
+}
+
+.button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 17px;
+    background-color: #22bc7e;
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+}
+.button:hover {
+    color: rgb(250, 242, 242);
+    background-color: rgb(73, 73, 238)
+}
+
+/* right heero section */
+.right-hero-section {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 38px;
+}
+
+/* doctor image */
+.doctorimg {
+    width: 391px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+/* green box */
+
+.greenbox {
+    width: 360px;
+    position: relative;
+    left: 589px;
+    top: 68px;
+}
+
+/* yellow box */
+.yellowBox{
+    width: 200px;
+    position: relative;
+    left: 390px;
+    top: 100px;
+}

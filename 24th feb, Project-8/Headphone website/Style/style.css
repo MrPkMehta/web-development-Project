@@ -1,0 +1,698 @@
+body {
+    background-color: black;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* header section */
+.header{
+    margin-top: 20px;
+    display:  flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* header logo */
+.header img {
+    position: relative;
+    left: 80px;
+}
+
+/* navigation bar */
+.menu{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    font-size: 17px;
+    position: relative;
+    left: -60px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+/* navigation button */
+nav button{
+    border:none;
+    padding: 8px 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+    transition: transparent;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #1e1e21;
+    color: #ffffff;
+    box-shadow: 2px 2px 2px rgb(112, 109, 109);
+}
+
+/* main content page */
+.content{
+   display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+ position: relative; 
+ margin-top: 30px;   
+}
+/* black headphone */
+
+.black-headphone{
+    width: 180px;
+    position: relative;
+    top: -170px;
+    left: 175px;
+}
+
+/* right hero section main content */
+.contentRHS{
+    position: relative;
+    left: -250px;
+    
+}
+
+.on-ear {
+    position: relative;
+    width: 250px;
+    left: 80px;
+}
+
+.contentRHS h1{
+    color: #ffffff;
+    font-size: 50px;
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 3px;
+}
+
+.contentRHS h4 {
+    font-size: 23px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* discription of headphone */
+.contentRHS .dis {
+    font-weight: 500;
+    color: #bdc0c2;
+    line-height: 20px;
+    position: relative;
+}
+
+.AddToBag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 14px;
+    top: 22px;
+    color: #ffffff;
+    gap: 20px;
+    background-size: 10px 20px;
+    background-color: #1e1e21;
+    padding: 8px;
+    text-align: center;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+
+.AddToBag .lock{
+    position: relative;
+    left: -12px;
+}
+
+.AddToBag p{
+    position: relative;
+    left: -5px;
+    font-weight: 600;
+}
+.AddToBag span {
+    position: relative;
+    left: 15px;
+    gap: 80px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+/* Section for shoping site logo */
+
+.ShopingLogo ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.ShopingLogo ul li a{
+    cursor: pointer;
+}
+
+
+/* specification section */
+.specification {
+    position: relative;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* speces logo */
+#SpecsLogo {
+    position: relative;
+    left: 130px;
+}
+
+#SpecsLogo img {
+    width: 150px;
+}
+
+/* specification list-item */
+.list-item{
+    position: relative;
+    font-size: 14px;
+    color: #bdc0c2;
+}
+.bluetooth {
+    margin-bottom: 15px;
+}
+
+.battery {
+    margin-bottom: 15px;
+    position: relative;
+    left: -25px;
+}
+
+.load {
+    margin-bottom: 15px;
+    position: relative;
+    left: -25px;
+}
+
+.microphone{
+    margin-top: 15px;
+}
+
+/* right headphone specsImage */
+
+.specsImage{
+    width: 200px;
+    position: relative;
+    top: 35px;
+    left: -25px;
+}
+
+/* another content section */
+.specification-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.caselogo{
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+.caseImage img {
+    width: 180px;
+    position: relative;
+    top: 50px;
+    left: -10px;
+}
+
+.case-intro  {
+   margin-top: 115px;
+   color: #bdc0c2;
+   font-size: 15px;
+   position: relative;
+   left: 35px;
+}
+
+.more-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: #181a1b;
+    padding: 7px;
+    border-radius: 8px;
+    gap: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+/* one more product section */
+.specification-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: #ffffff;
+}
+/* background color */
+.buyNowSection {
+    background-color: #181a1b;
+    display: flex;
+    padding: 30px 100px;
+    border-radius: 8px;
+}
+
+
+/* left section */
+.specification-3 h3 {
+    color:#ffffff;
+    margin-bottom:5px ;
+    margin-top: 15px;
+    font-weight:700;
+    font-size: 20px;
+}
+
+.specification-3 p{
+    font-size: 12px;
+    color: #bdc0c2;
+}
+
+/* buy now button */
+#buy-now{
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-top: 10px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    gap: 5px;
+    color: #ffffff;
+    background-color: black;
+    font-weight: 600;
+}
+
+#bagicon {
+    width: 15px;
+}
+
+/* right section of buy  now */
+
+.RSI img{
+    width: 210px;
+    position: relative;
+}
+
+/* creating product section for items */
+.product-section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+    left: -126px;
+    gap: 60px;
+    
+}
+
+.choose-logo {
+    width: 200px;
+    position: relative;
+    top: -60px;
+    left: 450px;
+}
+
+/* product-items-1 */
+/* black headphone */
+.product-items-1{
+    position: relative;
+    left: -62px;
+    top: 110px;
+    
+}
+
+.product-box {
+    height: 120px;
+    width: 120px;
+    background: #181a1b;
+    position: relative;
+    top: 130px;
+    left: 98px;
+    border-radius: 8px;
+    
+}
+
+.product-details-1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+    color: #ffffff;
+    position: relative;
+    top: 5px;
+
+}
+ 
+.product-details-1 span {
+    color: #bdc0c2;
+    font-weight: 600;
+}
+
+.product-items-1 .img1 {
+    width: 80px;
+    /* background-attachment: transparent; */
+}
+.bag-1 img{
+    width: 16px;
+    background-color: black;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* red black headphone */
+.product-items-2{
+    position: relative;
+    left: -200px;
+    top: 110px;
+    
+}
+
+.product-box-2 {
+    height: 120px;
+    width: 120px;
+    background: #181a1b;
+    position: relative;
+    top: 130px;
+    left: -40px;
+    border-radius: 8px;
+    
+}
+.product-details-2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+    color: #ffffff;
+    position: relative;
+    top: 7px;
+}
+
+.product-details-2 span {
+    color: #bdc0c2;
+    font-weight: 600;
+}
+.product-items-2 .img2 {
+    width: 80px;
+}
+.bag-2 img{
+    width: 16px;
+    background-color: black;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* product section 3 */
+.product-section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+    
+}
+/* orange black headphone */
+
+.product-items-3{
+    position: relative;
+    left: -63px;
+    top: 100px;
+}
+.product-box-3 {
+    height: 120px;
+    width: 120px;
+    background: #181a1b;
+    position: relative;
+    top: 130px;
+    left: 90px;
+    border-radius: 8px;
+    
+}
+
+.product-details-3{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    font-size: 14px;
+    color: white;
+    position: relative;
+    top: 7px;
+}
+.product-details-3 span {
+    color: #bdc0c2;
+    font-weight: 600;
+}
+
+.product-items-3 .img3 {
+    width: 80px;
+}
+.bag-3 img{
+    width: 16px;
+    background-color: black;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* blue headphone */
+.product-items-4{
+    position: relative;
+    left: -200px;
+    top: 100px;
+}
+.product-box-4 {
+    height: 120px;
+    width: 120px;
+    background: #181a1b;
+    position: relative;
+    top: 130px;
+    left: -48px;
+    border-radius: 8px;
+    
+}
+
+.product-details-4{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+    color: white;
+    position: relative;
+    top: 7px;
+}
+.product-details-4 span {
+    color: #bdc0c2;
+    font-weight: 600;
+}
+
+.product-items-4 .img4 {
+    width: 80px;
+}
+.bag-4 img{
+    width: 16px;
+    background-color: black;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* product section 3 */
+.product-section-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+    position: relative;
+    left: -120px;
+    
+}
+
+/* smokey grey headphone */
+.product-items-5{
+    position: relative;
+    top: 100px;
+    left: -100px;
+    
+}
+.product-box-5{
+    height: 120px;
+    width: 120px;
+    background: #181a1b;
+    position: relative;
+    top: 130px;
+    left: 50px;
+    border-radius: 8px;
+    
+}
+.product-details-5{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+    color: white;
+    position: relative;
+    top: 10px;
+}
+.product-details-5 span {
+    color: #bdc0c2;
+    font-weight: 600;
+}
+
+.product-items-5 .img5 {
+    width: 80px;
+}
+.bag-5 img{
+    width: 16px;
+    background-color: black;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* footer section */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 220px;
+    padding-bottom: 30px;
+}
+
+/* footer logo */
+.footer-logo {
+    position: relative;
+    top: -35px;
+    left: 230px;
+}
+
+/* products section */
+.products {
+  color: #ffffff;
+  position: relative;
+  left: 300px;
+}
+
+.product-list{
+    list-style: none;
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+.product-list li a {
+    text-decoration: none;
+    color: #bdc0c2;
+    
+}
+
+/* supprts section */
+.supports {
+    color: #ffffff;
+    position: relative;
+    left: 300px;
+}
+
+.supports-list{
+    list-style: none;
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+.supports-list li a {
+    text-decoration: none;
+    color: #bdc0c2;
+}
+
+/* subscription section */
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    left: 300px;
+}
+
+.email {
+    padding: 12px 30px;
+    position: relative;
+    top: -37px;
+    border: none;
+    border-radius: 7px;
+    background-color: #1e1e21;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.subscribe-button {
+    display: flex;
+    position: relative;
+    top: -37px;
+    left: -130px;
+    background-color: black;
+    padding: 5px 10px;
+    color: #bdc0c2;
+    gap: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.subscribe-button:hover{
+    background-color: darkslateblue;
+} 
+
+.uparrow {
+    position: relative;
+}
+
+.social-media {
+    position: relative;
+    left: -355px;
+    top: 17px;
+}
+
+.facebook {
+    width: 25px;
+    cursor: pointer;
+}
+
+.twitter {
+    width: 25px;
+    cursor: pointer;
+}
+.instagram {
+    width: 25px;
+    cursor: pointer;
+}
+.linkedin {
+    width: 25px;
+    cursor: pointer;
+}
+
+.uparrow {
+    position: relative;
+    left: 110px;
+    width: 25px;
+    top: -40px;
+    cursor: pointer;
+}
